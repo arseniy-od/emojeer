@@ -43,7 +43,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="text-2xl text-white">
-            {hello.data ? hello.data.greeting : "Loading tRPC query..."}
+            {data ? data[0]?.content : "Loading tRPC query..."}
           </p>
         </div>
       </main>
